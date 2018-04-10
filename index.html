@@ -1,374 +1,327 @@
-<Doctype!>
+<!DOCTYPE HTML>
 <html>
-<head>
-<title>BlackPearl</title>
-<meta charset="utf-8">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="freehtml5.co" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author=madan" content="">
-    <link rel="shortcut icon" href="http://pngimg.com/upload/eagle_PNG1218.png">
-
-  <link href="css/bootstrap.css" rel="stylesheet">
-   
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    
-    <script src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script> 
-    <script src="js/Chart.js"></script>
-
-</head>
-<body>
-<body data-spy="scroll" data-offset="0" data-target="#nav">
-
-	<div id="section-topbar">
-		<div id="topbar-inner">
-			<div class="container">
-				<div class="row">
-					<div class="dropdown">
-						<ul id="nav" class="nav">
-							<li class="menu-item"><a class="smoothScroll" href="#about" title="About">Home</a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume">about</a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works">work</i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact">contacts</a></li>
-						</ul><!--/ uL#nav -->
-					</div><!-- /.dropdown -->
-
-					<div class="clear"></div>
-				</div><!--/.row -->
-			</div><!--/.container -->
-
-			<div class="clear"></div>
-		</div><!--/ #topbar-inner -->
-	</div><!--/ #section-topbar -->
 	
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-	<div id="headerwrap">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-12">
-					<h1>Madan K.Pandey</h1>
-					<h3>Web Designer | @madanpadey410</h3>
-				</div><!--/.col-lg-12 -->
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/.#headerwrap -->
-
-
-<section id="about" name="about"></section>
-	<div id="intro">
-		<div class="container">
-			<div class="row">
-				
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>ABOUT</h5>
-				</div>
-				<div class="col-lg-6">
-					<p>I'm web designer & front-end developer. I'm interested in software development and back-end development, but my major focus is on designing web and software interface
-		 also have skills in other fields like wordpress, competitive programming or web development.</p>
-				</div>
-				<div class="col-lg-3">
-					<p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
-				</div>
-				
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #intro -->
-
-
-	<section id="resume" name="resume"></section>
-	<!--EDUCATION DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>EDUCATION</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><t>Computer Science & Engineering </t><br/>
-						Shri Mata Vaishno Devi University <br/>
-						<i>4 Years Course</i>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>GRADUATING IN MAY 2018</sm><br/>
-					<imp><sm>IN PROGRESS</sm></imp>
-					</p>
-				</div>
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>intermediate(I.s.c)</t><br/>
-						College of Commerce,Patna<br/>
-						<i>2 Years Course</i>
-					</p>
-				</div>
-				<div class="col-lg-3">
-					<p><sm>JUNE 2014</sm></p>
-				</div>
-	
-		</div><!--/.row -->
-		<br>
-		<hr>
-	</div><!--/.container -->
-	
-	
-	<!--WORK DESCRIPTION -->
-	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-	<div id="skillswrap">
-		<div class="container">
-			<div class="row">
-					<div class="col-lg-2 col-lg-offset-1">
-						<h5>SKILLS</h5>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="javascript" height="130" width="130"></canvas>
-						<p>Javascript</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 70,
-										color:"#1abc9c"
-									},
-									{
-										value : 30,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="bootstrap" height="130" width="130"></canvas>
-						<p>Bootstrap</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 90,
-										color:"#1abc9c"
-									},
-									{
-										value : 10,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="wordpress" height="130" width="130"></canvas>
-						<p>Wordpress</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 65,
-										color:"#1abc9c"
-									},
-									{
-										value : 35,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					
-					<div class="col-lg-3 col-lg-offset-3 centered">
-						<canvas id="html" height="130" width="130"></canvas>
-						<p>HTML/CSS</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 80,
-										color:"#1abc9c"
-									},
-									{
-										value : 20,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="java" height="130" width="130"></canvas>
-						<p>Java</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 70,
-										color:"#1abc9c"
-									},
-									{
-										value : 30,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("java").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="Python" height="130" width="130"></canvas>
-						<p>Python</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 50,
-										color:"#1abc9c"
-									},
-									{
-										value : 50,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("Python").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
-					<div class="col-lg-3 centered">
-						<canvas id="Pyt" height="130" width="130"></canvas>
-						<p>C++</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 50,
-										color:"#1abc9c"
-									},
-									{
-										value : 50,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("Pyt").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-                  <div class="col-lg-3 centered">
-						<canvas id="Py" height="130" width="130"></canvas>
-						<p>PHP</p>
-						<br>
-						<script>
-							var doughnutData = [
-									{
-										value: 50,
-										color:"#1abc9c"
-									},
-									{
-										value : 50,
-										color : "#ecf0f1"
-									}
-								];
-								var myDoughnut = new Chart(document.getElementById("Py").getContext("2d")).Doughnut(doughnutData);
-						</script>
-					</div>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-			</div><!--/.row -->
-			<br>
-		</div><!--/.container -->
-	</div><!--/ #skillswrap -->
-
-
-	<section id="work" name="work"></section>
-	<!--PORTFOLIO DESCRIPTION -->
-	<div class="container desc">
-		<div class="row">
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>PORTFOLIO</h5>
-				</div>
-				<div class="col-lg-6">
-					<p><img class="img-responsive" src="image/port01.jpg" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-					<p>codeinground</p>
-				<p><more>I have build codeinground for store information about personal website,initially  i wrote three or four page in one day but after that  i didn't write anything.<br/><br/>
-					<sm><i class="icon-tag"></i> design</sm></more> 
-				</p>
-				</div>
-	
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><img class="img-responsive" src="http://lemerg.com/data/wallpapers/6/987601.jpg" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-						<p>Pandeysparx</p>
-					<p><more>I have designed  this website for my personal use while learning wordpress ,this isn't a very good protfolio but i have build this for my personal use.<br/><br/>
-						<sm><i class="icon-tag"></i> front-end</sm></more> 
-					</p>
-				</div>
-				
-				<div class="col-lg-6 col-lg-offset-3">
-					<p><img class="img-responsive" src="http://img07.deviantart.net/9096/i/2013/032/c/0/future_city_by_dongkyuni-d5tidbu.jpg" alt=""></p>
-				</div>
-				<div class="col-lg-3">
-						<p>cse2k14</p>
-					<p><more>This will be my future work.I want to build website regarding information of student but due to some kind of issue currently i have stop it. <br/><br/>
-						<sm><i class="icon-tag"></i> web design</sm></more> 
-					</p>
-				</div>
+	</head>
+	<body>
 		
-		</div><!--/.row -->
-		<br>
-		<br>
-	</div><!--/.container -->
+	<div class="fh5co-loader"></div>
 	
-<section id="contact" name="contact"></section>
-	<!--FOOTER DESCRIPTION -->
-	<div id="footwrap">
+	<div id="page">	
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
-			
-				<div class="col-lg-2 col-lg-offset-1">
-					<h5>CONTACT</h5>
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url(images/madan.jpg);"></div>
+							<h1><span>Madan Kumar Pandey</span></h1>
+							<h3><span>BackEnd Developer / Machine Learning Enthusiast</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<li><a href="#"><i class="icon-twitter2"></i></a></li>
+									<li><a href="#"><i class="icon-facebook2"></i></a></li>
+									<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+									<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+								</ul>
+							</p>
+						</div>
+					</div>
 				</div>
-				<div class="col-lg-6">
-					<p><t>Email</t><br/>
-						madanpandey410@gmail.com<br/>
-						pandeymadan029@gmail.com <br/>
-						14bcs029@smvdu.ac.in<br/>
-					</p>
-					<p><t>Adress</t><br/>
-						Shri Mata Vaishno Devi University<br/>
-						kakryal<br/>
-						Jammu & Kashmir,India,182320 <br/>
-					</p>
-					<p><t>Phone</t><br/>
-						7298917040 <br/>
-					</p>
+			</div>
+		</div>
+	</header>
+
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
 				</div>
-				<div class="col-lg-3">
-					<p><sm>SOCIAL LINKS</sm></p>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Madan Kumar Pandey</span></li>
+						<li><span class="first-block">Phone:</span><span class="second-block">+91-8713928013</span></li>
+						<li><span class="first-block">Email:</span><span class="second-block">pandeymadan029@gmail.com</span></li>
+						<li><span class="first-block">Website:</span><span class="second-block">www.yoursite.com</span></li>
+						<li><span class="first-block">Address:</span><span class="second-block">D-201 Nirman Palace Pump House Andheri East Mumbai 400093</span></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Hello There!</h2>
+					<p>A detail oriented and multitasking professional with exceptional coding techniques, I am 
+pursuing bachelor of technology degree in computer science technology from Shri Mata Vaishno Devi University.</p>
+					<p>I want to pursue a highly challenging career, where I can apply my knowledge and contribute
+constructively for growth of organization.</p>
+<p>I want to work with a organization which appreciates innovation so that I can enhance my
+knowledge and skills to give my best for the growth of the organization.</p>
 					<p>
-						<a href="#"><i class="icon-dribbble"></i></a>
-						<a href="#"><i class="icon-twitter"></i></a>
-						<a href="#"><i class="icon-facebook"></i></a>
-						<a href="#"><i class="icon-linkedin"></i></a>
-						<a href="#"><i class="icon-apple"></i></a>
-
+						<ul class="fh5co-social-icons">
+							<li><a href="#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="#"><i class="icon-facebook3"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+						</ul>
 					</p>
 				</div>
-			</div><!--/.row -->
-		</div><!--/.container -->
-	</div><!--/ #footer -->
-	
-	<div id="c">
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-resume" class="fh5co-bg-color">
 		<div class="container">
-			<p>Created by <a href="pandeysparx.weebly.com">BlackPearl</a></p>
-		
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Resume</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Work Experience</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">BackEnd Engineer Intern</h3>
+									<span class="company">Cleub Home Automation - Fab 2017 - April 2017</span>
+								</div>
+								<div class="timeline-body">
+									<p>Work on Django framework for developing web application for cleub.</p>
+									<p>Real Time Web Push Notification for all platform using Djnago and Rest Api.<br>Online Transection using Django and Stripe Api.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Advance Java Trainee</h3>
+									<span class="company">WebTek  - June 2017 - July 2017</span>
+								</div>
+								<div class="timeline-body">
+									<p> Worked on the advance Java Concept to build Enterprise Application
+Development using JSP, Servlet to design and develop the full stack
+implementation of a new framework to connect through a Social Application.</p>
+								</div>
+							</div>
+						</li>
+					
+
+						<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Education</h3></div>
+						</li>
+						<li class="timeline-unverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">B.Tech ( Computer Science & Engineering )</h3>
+									<span class="company">Shri Mata Vaishno Devi University - 2014 - 2018</span>
+
+									<h4 class="timeline-title">CGPA ( 7.5/10 )</h3>
+									
+								</div>
+								<div class="timeline-body">
+									<p>Shri Mata Vaishno Devi University is central government funded and situated under the base of trikuta mountain.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-inverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title"> InterMediate (+2)</h3>
+									<span class="company">College Of Commerce Patna - 2012 - 2014</span>
+										<h4 class="timeline-title">Percentage ( 70.20 )</h3>
+								</div>
+								<div class="timeline-body">
+									<p></p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-unverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Matriculation </h3>
+									<span class="company">S.G.H.S Rampur - 2010-2012</span>
+										<h4 class="timeline-title">Percentage ( 82.00 )</h3>
+								</div>
+								<div class="timeline-body">
+									<p></p>
+								</div>
+							</div>
+						</li>
+						
+
+							<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Other Experience</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Campus Ambassador  </h3>
+									<span class="company"> Internshal Student Partner- session 2015-16</span>
+
+									
+								</div>
+								<div class="timeline-body">
+									
+								</div>
+							</div>
+						</li>
+						<li class="timeline-unverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Campus Ambassador  </h3>
+									<span class="company"> HackerEarth- session 2016-17</span>
+
+									
+								</div>
+								<div class="timeline-body">
+									
+								</div>
+							</div>
+						</li>
+						
+					
+			    	</ul>
+				</div>
+			</div>
 		</div>
 	</div>
 	
+	<div id="fh5co-work" class="fh5co-bg-dark">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2> Project</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://github.com/madanpandey97/Ots-Health" class="work" style="background-image: url(images/5.png);">
+						<div class="desc">
+							<h3>Ots-Health (Online Appointment Booking App) </h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://github.com/madanpandey97/CleubSoft" class="work" style="background-image: url(images/cleub.png);">
+						<div class="desc">
+							<h3>Cleub Automation </h3>
+							<span>click here</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://github.com/madanpandey97/SMVDU-TBIC" class="work" style="background-image: url(images/tbic.png);">
+						<div class="desc">
+							<h3>SMVDU-TBIC</h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="https://github.com/madanpandey97/TITIKSHA-2K16" class="work" style="background-image: url(images/);">
+						<div class="desc">
+							<h3>Titiksha - SMVDU</h3>
+							<span>Design</span>
+						</div>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
 
 
-	 <script src="js/jquery.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-</body>
+	<div id="fh5co-started" class="fh5co-bg-dark">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Hire Me!</h2>
+					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<p><a href="#" class="btn btn-default btn-lg">Contact Us</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+	
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
