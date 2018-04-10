@@ -16,7 +16,8 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #4d4d4d;
-  background: #fff;
+  background:#64FFDA
+;
 }
 
 #page {
@@ -100,7 +101,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  background: #009688;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -307,8 +308,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-bg-dark {
-  background: #2F3C4F;
-  background: #FF9000;
+  background: #009688;
+  background: #009688;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
