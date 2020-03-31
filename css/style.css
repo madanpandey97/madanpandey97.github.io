@@ -16,7 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #4d4d4d;
-  background:#64FFDA;
+  /*background:#64FFDA;*/
 ;
 }
 
@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #FF9000;
+  background: 
 }
 
 .fh5co-heading {
